@@ -1,0 +1,17 @@
+{
+  "name": "zz-mod-patches-late",
+  "version": "0.2.0",
+  "title": "Mod Patches - late (local)",
+  "author": "mtopfox",
+  "factorio_version": "2.1",
+  "description": "Local fixes that must run after every other mod. Optional dep on omniab-space-age-compat (currently the last final-fixes loader) keeps it last.",
+  "dependencies": [
+    "base",
+    "(?) omniab-space-age-compat",
+    "(?) Quantum-Logistics",
+    "(?) disco-science-lite",
+    "(?) power-propagation",
+    "(?) planetaris-arig",
+    "(?) compute-science"
+  ]
+}
